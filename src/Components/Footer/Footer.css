@@ -1,0 +1,19 @@
+.footer{
+    background-color:rgb(122, 122, 190);
+    height: 300px;
+    padding-top: 10px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: black;
+
+}
+
+ @media only screen and (max-width:400px) {
+    .footer{
+        padding: 20px;
+        height: 800px;
+        background-color:rgb(122, 122, 190);
+
+    }
+ }

@@ -1,0 +1,36 @@
+.loginForm{
+    height: 450px;
+    width: 430px;
+    background-color: rgb(104, 104, 223);
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 50px 450px;
+    padding: 30px;
+}
+.button-login{
+background-color: rgb(59, 221, 44);
+padding: 5px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+.button{
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgb(218, 54, 182);
+}
+.button img{
+    height: 25px;
+    width: 25px;
+}
+a{
+    color: rgb(250, 24, 24);
+    text-decoration: none;
+}
+
+@media only screen and (max-width:400px) {
+   .loginForm{
+       height: 200px;
+       width: 335px;
+       margin-left:10px;
+   } 
+}

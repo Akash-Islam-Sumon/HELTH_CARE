@@ -1,0 +1,17 @@
+.service{
+    border: 2px solid olive;
+    padding: 30px;
+    border-radius: 10px;
+}
+.service img{
+    height: 280px;
+    width: 330px;
+}
+@media only screen and (max-width:400px) {
+
+    .service img{
+        height: 200px;
+        width: 200px;
+    }
+    
+}
